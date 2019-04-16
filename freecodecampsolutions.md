@@ -9,7 +9,7 @@ create a var variable
 
 // Declare myName below this line
 ```
-
+---
 assigning a value
 ```// Setup 
 var a;
@@ -20,7 +20,7 @@ var a = 7;
 var b = 7;
 b = a;
 ```
-
+---
 to define a variable
 ```
 var ourVar = 19;
@@ -28,6 +28,7 @@ var ourVar = 19;
 // Only change code below this line 
 var a = 9;
 ```
+---
 initializing a number or undefined
 ```
 // Initialize these three variables 
@@ -41,35 +42,41 @@ a = a + 1;
 b = b + 5;
 c = c + " String!";
 ```
-
+---
 to learn about case 
 ```
 // Declarations var studlyCapVar;
    var properCamelCase; 
     var titleCaseOver;
 ```
+---
 Assignments 
 ```
 studlyCapVar = 10; 
 properCamelCase = "A String"; 
 titleCaseOver = 9000;
 ```
+---
 adding the numbers
 ```
 var sum = 10 + 10;
 ```
+---
 find the difference between the numbers
 ```
 var difference = 45 - 33;
 ```
+---
 product the numbers
 ```
 var product = 8 * 10;
 ```
+---
 finding the quotient
 ```
 var quotient = 66 / 33;
 ```
+---
 increasing numbers one
 ```
 var myVar = 87;
@@ -77,6 +84,7 @@ var myVar = 87;
 // Only change code below this line 
   myVar++;
 ```
+---
 decreasing numbers one 
 ```
 var myVar = 11;
@@ -84,6 +92,7 @@ var myVar = 11;
 // Only change code below this line
 myVar--;
 ```
+---
 create a decimal number
 ```
 var ourDecimal = 5.7;
@@ -92,20 +101,24 @@ var ourDecimal = 5.7;
 
 var myDecimal = 3.6;
 ```
+---
 multiplying two decimals 
 ```
 var product = 2.0 * 2.5;
 ```
+---
 dividing decimals
 ```
 var quotient = 4.4 / 2.0; // Fix this line
 
 ```
+---
 finding the remainder of a division
 ```
 var remainder; remainder = 11 % 3;
 
 ```
+---
 adding numbers in a short way
 ```
 var a = 3; var b = 17; var c = 12;
@@ -114,6 +127,7 @@ var a = 3; var b = 17; var c = 12;
 
 a+= 12; b+= 9; c+= 7;
 ```
+---
 
 subtracting numbers in a short way
 ```
@@ -124,6 +138,7 @@ var a = 11; var b = 9; var c = 3;
 a-= 6; b-= 15; c-= 1;
 
 ``` 
+---
 multiplying numbers in a short way
 ```
 var a = 5; var b = 12; var c = 4.6;
@@ -133,6 +148,7 @@ var a = 5; var b = 12; var c = 4.6;
 a*= 5; b*= 3; c*= 10;
 
 ```
+---
 dividing in a short way
 ``` var a = 48; var b = 108; var c = 33;
 
@@ -140,6 +156,7 @@ dividing in a short way
 
 a/= 12; b/= 4; c/= 11;
 ```
+---
 
 assigning a name
 ```// Example var firstName = "Alan"; 
@@ -150,19 +167,23 @@ var myFirstName = "Nihan";
 var myLastName = "Akkose";
 
 ```
+---
 about two times quotes
 ``` var myStr = "I am a "double quoted" string inside "double quotes".";
 // Change this line
 ```
+---
 Quoting Strings with Single Quotes
 ``` var myStr =' Link';
 
 ```
+---
 it was hard to solve
 ```
 var myStr = "FirstLine\n\t\SecondLine\nThirdLine";// Change this line
 
 ```
+---
 concenating strings
 ```
 var ourStr = "I come first. " + "I come second.";
@@ -173,6 +194,7 @@ var myStr;
 myStr = "This is the start. " + "This is the end."
 
 ```
+---
 concenating with plus
 ```
 // Example 
@@ -186,6 +208,7 @@ myStr = "This is the first sentence. " ;
 myStr += "This is the second sentence.";
 
 ```
+---
 concenating three strings
 ``` var ourName = "freeCodeCamp"; 
 var ourStr = "Hello, our name is " + ourName + ", how are you?";
@@ -197,6 +220,7 @@ myName = "Nihan";
 myStr = "My name is " + myName + " and I am well!";
 
 ```
+---
 Appending Variables to Strings
 ``` // Example
 var anAdjective = "awesome!"; 
@@ -210,6 +234,7 @@ var myStr = "Learning to code is ";
 myStr += someAdjective;
 
 ```
+---
 finding the length of a string 
 ```
 // Example
@@ -224,6 +249,7 @@ var myStr = "Learning to code is ";
 myStr += someAdjective;
 
 ```
+---
 using bracket to find the first letter
 ```// Example 
 var firstLetterOfFirstName = ""; 
@@ -238,6 +264,7 @@ var lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 
 ```
+---
 string immutability
 ``` 
 // Setup var myStr = "Jello World";
@@ -247,6 +274,7 @@ string immutability
 myStr = "Hello World";// Fix Me
 
 ```
+---
 the nth letter
 ```
 // Example var firstName = "Ada"; 
@@ -258,6 +286,7 @@ var secondLetterOfFirstName = firstName[1];
 var thirdLetterOfLastName = lastName[2];
 
 ```
+---
 the last letter
 ``` // Example var firstName = "Ada"; 
 var lastLetterOfFirstName = firstName[firstName.length - 1];
@@ -268,6 +297,7 @@ var lastLetterOfFirstName = firstName[firstName.length - 1];
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
 ```
+---
 nth to last letter of a string
 ```
 // Example
@@ -280,6 +310,7 @@ var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
 var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
 ```
+---
 word blanks
 ```
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) { 
@@ -292,6 +323,7 @@ var result = "My"+" " + myAdjective +" "+ myNoun +" " + myVerb +" " + "very" + "
 // Change the words here to test your function wordBlanks("dog", "big", "ran", "quickly");
 
 ```
+---
 Arrays
 ```
 // Example var ourArray = ["John", 23];
@@ -299,6 +331,7 @@ Arrays
 // Only change code below this line. 
 var myArray = ["Nihan",43];
 ```
+---
 Multi-dimensional Array 
 ```// Example var ourArray = [["the universe", 42], ["everything", 101010]];
 
@@ -306,6 +339,7 @@ Multi-dimensional Array
 var myArray = [["Aydin",46],["Nihan",43]];
 
 ```
+---
 indexes
 ```
 // Example var ourArray = [50,60,70]; 
@@ -317,6 +351,7 @@ var myData = myArray[0];
 // Only change code below this line.
 
 ```
+---
 mutable array indexes
 ```
 // Example
@@ -329,6 +364,7 @@ myArray[0] = 45;
 // Only change code below this line.
 
 ```
+---
 Array of arrays
 ```
 // Setup var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
@@ -336,6 +372,7 @@ Array of arrays
 // Only change code below this line. 
 var myData = myArray[2][1];
 ```
+---
 Manipulate Arrays With push()
 ```
 // Example
@@ -347,6 +384,7 @@ myArray.push(["dog",3]);
 
 // Only change code below this line. 
 ```
+---
 Manipulate Arrays With pop()
 ```
 / Example var ourArray = [1,2,3]; 
@@ -359,6 +397,7 @@ var removedFromOurArray = ourArray.pop();
 var removedFromMyArray = myArray.pop();
 
 ```
+---
 Manipulate Arrays With unshift()
 ```
 
@@ -375,12 +414,14 @@ myArray.unshift(["Paul",35] );
 // Only change code below this line.
 
 ```
+---
 Shopping List
 ```
 var myList = [["Cereal",2],["Apple",5],["egg",30],["peer",10],["Cake",1]];
 
 ```
-creating functions
+---
+Creating functions
 ```
 // Example= function ourReusableFunction() {
 console.log("Heyya, World"); 
@@ -393,7 +434,8 @@ console.log("Hi World");
 reusableFunction();
 
 ```
-functions with arguments
+---
+Functions with arguments
 ```
 // Example function ourFunctionWithArgs(a, b) { 
 console.log(a - b);
@@ -407,7 +449,8 @@ console.log(a + b);
 functionWithArgs(10, 5);
 
 ```
-local scope functionshard
+---
+Local scope functionshard
 ``` 
 // Declare your variable here var myGlobal = 10;
 
@@ -428,7 +471,8 @@ output += " oopsGlobal: " + oopsGlobal;
 }
 
 ```
-local scopeI didnt understan but I passed.
+---
+Local scopeI didnt understan but I passed.
 ```
 function myLocalScope() { var myVar='use strict'; // you shouldn't need to edit this line
 
@@ -439,8 +483,11 @@ myLocalScope();
 // Run and check the console // myVar is not defined outside of myLocalScope
 
 // Now remove the console log line to pass the test 
-```
+
+
 return a value a function
+```
+---
 ```
 // Example
 function minusSeven(num) { 
@@ -454,6 +501,7 @@ return num*5;
 console.log(minusSeven(10));
 
 ```
+---
 Understanding Undefined Value returned from a Function
 ```
 // Example var sum = 0; function addThree() {
@@ -469,7 +517,8 @@ sum= sum + 5;
 var returnedValue = addFive();
 
 ```
-assigment with areturned value
+---
+Assigment with areturned value
 ```
 
 return arr.shift() ; // Change this line 
@@ -481,7 +530,8 @@ console.log(nextInLine(testArr, 6));
 // Modify this line to test console.log("After: " + JSON.stringify(testArr));
 
 ```
-boolean values
+---
+Boolean values
 ```
 function welcomeToBooleans() {
 
@@ -492,7 +542,8 @@ return true; // Change this line
 // Only change code above this line. 
 } 
 ```
-if statements
+---
+If statements
 ```
 // Example 
 function ourTrueOrFalse(isItTrue) { 
@@ -502,6 +553,7 @@ return "Yes, it's true";
 return "No, it's false"; 
 }
 ```
+---
 ```
 // Setup function trueOrFalse(wasThatTrue) {
 
@@ -517,6 +569,7 @@ return "No, that was false" ;
 // Change this value to test trueOrFalse(true);
 
 ```
+---
 
 ```
 // Example 
@@ -526,6 +579,7 @@ return "Yes, it's true";
 } return "No, it's false";
 }
 ```
+---
 ```
 // Setup function trueOrFalse(wasThatTrue) {
 
@@ -540,6 +594,7 @@ return "No, that was false" ;
 
 // Change this value to test trueOrFalse(true);
 ```
+---
 
 strict equality operator
 ```
@@ -550,6 +605,7 @@ if (val===7) {
 
 // Change this value to test testStrict(10);
 ```
+---
 
 comparison equality
 ```
@@ -562,6 +618,7 @@ if (a === 'b') {
 // Change this value to test compareEquality(10, "10");
 
 ```
+---
 comparison inequality
 ```
 function testNotEqual(val) { 
@@ -573,6 +630,7 @@ if (val!= 99) {
 // Change this value to test testNotEqual(10);
 
 ```
+---
 Comparison with the Greater Than Or Equal To Operator
 ```
 function testGreaterOrEqual(val) {
@@ -587,6 +645,7 @@ return "Less than 10";
 // Change this value to test testGreaterOrEqual(10);
 
 ```
+---
 less than operator
 ```
 function testLessThan(val) {
@@ -604,6 +663,7 @@ return "55 or Over";
 // Change this value to test testLessThan(10);
 
 ```
+---
 less than or equal to
 ```
 function testLessOrEqual(val) {
@@ -621,7 +681,8 @@ return "More Than 24";
 // Change this value to test testLessOrEqual(10);
 
 ```
-comparision with logical operetor 
+---
+Comparision with logical operetor 
 ```
 function testLogicalAnd(val) { 
 // Only change code below this line
@@ -637,6 +698,7 @@ if (val >= 25 && val <=50 ) {
 // Change this value to test testLogicalAnd(10);
 
 ```
+---
 Comparisons with the Logical Or Operator
 ```
 function testLogicalOr(val) { 
@@ -652,7 +714,8 @@ return "Outside";
 // Change this value to test testLogicalOr(15);
 
 ```
-else statement
+---
+Else statement
 ```
 function testElse(val) {
 var result = ""; 
@@ -672,7 +735,8 @@ result = "5 or Smaller";
 // Change this value to test testElse(4);
 
 ```
-else if statement
+---
+Else if statement
 ```
 function testElseIf(val) { 
 if (val > 10) {
@@ -687,6 +751,7 @@ return "Smaller than 5";
 // Change this value to test testElseIf(7);
 
 ```
+---
 Logical Order in If Else Statements
 ```
 function orderMyLogic(val) { 
@@ -701,6 +766,7 @@ return "Greater than or equal to 10";
 // Change this value to test orderMyLogic(7);
 
 ```
+---
 Chaining If Else Statements
 ```
 function testSize(num) { 
@@ -724,3 +790,4 @@ return "Change Me";
 
 // Change this value to test testSize(7);
 ```
+---
