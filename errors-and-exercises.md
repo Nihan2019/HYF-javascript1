@@ -29,11 +29,11 @@ Practice using the devtools by clicking on the 'VM##:#' link to the right of the
 
 
 ---
-## Exercises
+# Exercises
 
 ### malformed while loop
 
-broken code:
+*broken code:
 ```js
 let value = 0;
 while (value < 9) 
@@ -62,7 +62,7 @@ your notes:open parantheses is missed.
 ---
 
 ### missing variable name
-broken code:
+*broken code:
 ```js
 var = 5;
 ```
@@ -107,8 +107,8 @@ your notes:there is an unexpected number.
 [TOP](#errors)
 
 ---
-## access property directly
-broken code:
+###access property directly
+*broken code:
 ```js
 let x = {b:'e'};
 let y = b.e;
@@ -129,7 +129,7 @@ your notes:
 
 ---
 ## improper multi-line string
-broken code:
+*broken code:
 ```js
 let a = 'this is 
 two lines';
@@ -149,8 +149,8 @@ your notes:we can not write a string  unnecessarily in two lines
 [TOP](#errors)
 
 ---
-## improper end of statement
-broken code:
+### improper end of statement
+*broken code:
 ```js
 let a = 1:
 ```
@@ -170,8 +170,8 @@ your notes:at the end of a string there must be semicolon
 [TOP](#errors)
 
 ---
-## malformed array
-broken code:
+### malformed array
+*broken code:
 ```js
 let myArray = [1, 2, 3;
 ```
@@ -217,13 +217,13 @@ the fix:
 5	}
 6	let result =getNine();
 ```
-your notes:missing arguments
+your notes:*missing arguments*
 
 [TOP](#errors)
 
 ---
-## improper nested quotes 1
-broken code:
+### improper nested quotes 1
+*broken code:
 ```js
 let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
@@ -243,8 +243,8 @@ your notes:nested quotes single quote
 [TOP](#errors)
 
 ---
-## improper nested quotes 2 
-broken code:
+###improper nested quotes 2 
+*broken code:
 ```js
 let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
 ```
@@ -264,8 +264,8 @@ your notes:improper nested quotes
 [TOP](#errors)
 
 ---
-## reassigning to constant
-broken code:
+### reassigning to constant
+*broken code:
 ```js
 const a = 9;
 a = 0;
@@ -281,13 +281,13 @@ the fix:
 ```js
 const a=9;
 ```
-your notes:you can not assign two times for const.
+your notes:_you can not assign two times for const._
 
 [TOP](#errors)
 
 ---
 ## unassigned const declaration
-broken code:
+*broken code:
 ```js
 const a;
 a = 0;
@@ -303,13 +303,13 @@ the fix:
 ```js
  const a = 0;
 ```
-your notes:
+your notes*constant must be initialized*
 
 [TOP](#errors)
 
 ---
 ## is not a function
-broken code:
+*broken code:
 ```js
 let array = [];
 array.length()
