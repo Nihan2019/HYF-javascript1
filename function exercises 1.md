@@ -1,12 +1,5 @@
 # Functions
 
-some exercises to help you understand functions:
-* Defining vs. Calling functions
-    * Defining: when you write the funciton -> function name() {}.  This creates the function in memory
-    * Calling: using the function to compute new values -> name().  This creates a new frame and returns a new value
-* Arguments
-* Lexical Scope
-* Return Values
 
 ### Index
 * [completed example](#completed-example)
