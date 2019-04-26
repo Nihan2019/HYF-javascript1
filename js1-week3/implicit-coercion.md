@@ -52,18 +52,18 @@ function plus(x, y) {
 ```js
 {
   /* test cases      : fill in the correct results
-    null, undefined -> ?
-    "3", 3          -> ?
-    3, "3"          -> ?
-    "3", "e"        -> ?
-    3, "e"          -> ?
-    "", 0           -> ?
-    undefined, 4    -> ?
-    true, false     -> ?
-    true, "false"   -> ?
-    null, false     -> ?
-    1, null         -> ?
-    null, ""        -> ?
+    null, undefined -> ?NaN number
+    "3", 3          -> ?"33"string
+    3, "3"          -> ?"33"string
+    "3", "e"        -> ?"3e"string
+    3, "e"          -> ?"3e"string
+    "", 0           -> ?"0"number
+    undefined, 4    -> ?NaN
+    true, false     -> ?1 number
+    true, "false"   -> ?"truefalse"
+    null, false     -> ?0 number
+    1, null         -> ?1 number
+    null, ""        -> ?"null"string
   */
 
   const a =  , b = ;
@@ -83,14 +83,14 @@ function plus(x, y) {
 ```js
 { 
   /* test cases          : fill in the correct results
-    "3", 3, 3           -> ?
-    3, "3", 3           -> ?
-    3, 3, "3"           -> ?
-    "", true, false     -> ?
-    true, false, ""     -> ?
-    null, 0, ""         -> ?
-    "", 0, null         -> ?
-    undefined, 0, true  -> ?
+    "3", 3, 3           -> ?"333"number
+    3, "3", 3           -> ?"333"number
+    3, 3, "3"           -> ?"3"number
+    "", true, false     -> ?"truefalse"string
+    true, false, ""     -> ?"truefalse"string
+    null, 0, ""         -> ?"1"number
+    "", 0, null         -> ?"0"string
+    undefined, 0, true  -> ?NaN 
   */
   const a = , b = , c = ;
   const typeof_a = typeof a;
@@ -111,14 +111,14 @@ function plus(x, y) {
 ```js
 { 
   /* test cases          : fill in the correct results
-    "3", 3, 3           -> ?
-    3, "3", 3           -> ?
-    3, 3, "3"           -> ?
-    "", true, false     -> ?
-    true, false, ""     -> ?
-    null, 0, ""         -> ?
-    "", 0, null         -> ?
-    undefined, 0, true  -> ?
+    "3", 3, 3           -> ?"36"
+    3, "3", 3           -> ?"333"
+    3, 3, "3"           -> ?"333"
+    "", true, false     -> ?"1"
+    true, false, ""     -> ?"truefalse"
+    null, 0, ""         -> ?"null0"
+    "", 0, null         -> ?"0"
+    undefined, 0, true  -> ?NaN
   */
   const a = , b = , c = ;
   const typeof_a = typeof a;
