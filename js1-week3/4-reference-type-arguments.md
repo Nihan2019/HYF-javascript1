@@ -180,6 +180,9 @@ not the best choice, it can be much more difficult to think about and debug.
 {
   function copy_array(arr) {
     // write this using JSON.stringify & .parse
+    var array_strified = JSON.stringfy(arr);
+    var array_copy = JSON.parse(array_strified);
+    return array_copy;
   }
 
   const array = ['a', 'b'];
